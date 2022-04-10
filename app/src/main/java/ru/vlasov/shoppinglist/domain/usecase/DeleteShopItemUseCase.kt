@@ -1,10 +1,11 @@
 package ru.vlasov.shoppinglist.domain.usecase
 
 import ru.vlasov.shoppinglist.domain.ShopItem
+import ru.vlasov.shoppinglist.domain.ShopListRepository
 
-class DeleteShopItemUseCase {
+class DeleteShopItemUseCase(private val shopListRepository: ShopListRepository) {
 
     fun deleteShopItem(shopItem: ShopItem) {
-        TODO()
+        shopListRepository.deleteShopItem(shopItem)
     }
 }
