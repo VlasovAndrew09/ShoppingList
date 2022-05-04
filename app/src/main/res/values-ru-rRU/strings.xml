@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Список покупок</string>
+    <string name="add_shop_item_content_description">Добавить новый товар</string>
+    <string name="name_hint">Наименование</string>
+    <string name="count_hint">Количество</string>
+    <string name="save_btn">Сохранить</string>
+    <string name="error_input_name">Некорректное наименование</string>
+    <string name="error_input_count">Некорректное количество</string>
+</resources>
